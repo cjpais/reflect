@@ -1,0 +1,25 @@
+{
+  "name": "reflect",
+  "version": "0.0.1",
+  "description": "Workspaces to allow you to reflect",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "cj pais",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.3"
+  },
+  "dependencies": {
+    "@toast-ui/editor": "^2.4.0",
+    "@toast-ui/editor-plugin-code-syntax-highlight": "^1.0.0",
+    "@toast-ui/editor-plugin-color-syntax": "^1.0.1",
+    "@toast-ui/editor-plugin-table-merged-cell": "^1.2.0",
+    "codemirror": "^5.58.1",
+    "codemirror-spell-checker": "^1.1.2",
+    "dayjs": "^1.9.1",
+    "highlight.js": "^10.2.1"
+  }
+}
