@@ -11,25 +11,20 @@
     <link rel="stylesheet" href="gruvbox-dark.css"/>
     <link rel="stylesheet" href="foldgutter.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css"/>
-    <!-- Editor's Style -->
-    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css"/>
-    <link rel="stylesheet" href="https://uicdn.toast.com/tui-color-picker/latest/tui-color-picker.min.css"/>
+
     <link rel="stylesheet" href="application.css">
   </head>
-  <body>
-    <div class="container">
-      <textarea id="code" name="code"></textarea>
-    </div>
-    <div id="editor"></div>
+  <body class="container">
   </body>
 
-  <script>require('./render.js')</script>
+  <!--<script>require('./dist/codemirror_elem.js')</script>-->
+  <script>require('./dist/loader.js')</script>
+  <!--<script>require('./dist/core/TextComponent.js')</script>-->
   <script>
     // TODO turn this into Vue so we can start being sane here.
     const dayjs = require('dayjs')
 
     title = document.getElementsByTagName("title")[0]
-    title.textContent = "Reflect - " + dayjs().format("dddd MMMM D, YYYY"
-)
+    title.textContent = "Reflect - " + dayjs().format("dddd MMMM D, YYYY")
   </script>
 </html>

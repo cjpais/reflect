@@ -143,14 +143,14 @@
 .cm-invalidchar {color: #f00;}
 
 .cm-header-1 {
-  font-size: 3.125em;
+  font-size: 2.625em;
   display: block; 
   text-align: center;
 }
-.cm-header-2 {font-size: 2.618em;}
-.cm-header-3 {font-size: 1.931em;}
-.cm-header-4 {font-size: 1.618em;}
-.cm-header-5 {font-size: 1.194em;}
+.cm-header-2 {font-size: 2.218em;}
+.cm-header-3 {font-size: 1.831em;}
+.cm-header-4 {font-size: 1.518em;}
+.cm-header-5 {font-size: 1.294em;}
 .cm-header-6 {font-size: 1em;}
 
 .CodeMirror .cm-spell-error:not(.cm-url):not(.cm-comment):not(.cm-tag):not(.cm-word){background:rgba(255,0,0,.15)}
